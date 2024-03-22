@@ -642,7 +642,6 @@ address {
   margin-bottom: 16px;
 }
 .input-one {
-  margin-bottom: 8px;
 }
 .modal-input {
   width: 100%;
@@ -665,15 +664,16 @@ address {
   margin-bottom: 4px;
   outline: transparent;
 }
+.modal-input-one {
+  position: relative;
+}
 .modal-input:focus {
   border: 1px solid #4d5ae5;
 }
 .modal-input:focus + .modal-icon {
   fill: #4d5ae5;
 }
-.modal-icon-one {
-  position: relative;
-}
+
 .modal-input-wrap {
   position: relative;
 }
