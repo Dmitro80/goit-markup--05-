@@ -183,7 +183,6 @@ address {
 }
 .hero-btn {
   background: #4d5ae5;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -457,6 +456,7 @@ address {
   max-width: 264px;
 }
 .footer-media {
+  margin-right: 80px;
 }
 .footer-title {
   font-family: "Roboto";
@@ -497,6 +497,66 @@ address {
   width: 24px;
   height: 24px;
   background-position: center center;
+}
+.foter-input {
+  margin-left: 80px;
+}
+.title-subscribe {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  color: #f4f4fd;
+  margin-bottom: 16px;
+}
+.footer-form::placeholder {
+  font-size: 12px;
+  color: #f4f4fd;
+  align-items: center;
+  padding-top: 8px;
+}
+.footer-form {
+}
+.footer-email {
+  width: 264px;
+  height: 40px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  outline: transparent;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  margin-right: 24px;
+  padding-left: 16px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-btn {
+  font-weight: 500;
+  min-width: 165px;
+  height: 40px;
+  font-size: 16px;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: #4d5ae5;
+  border: 1px solid #404bbf;
+  color: #ffffff;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-btn:hover,
+.footer-btn:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
+.footer-btn-icon {
+  margin-left: 16px;
+  width: 24px;
+  height: 24px;
 }
 
 /*--Modal--*/
