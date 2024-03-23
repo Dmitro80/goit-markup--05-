@@ -752,9 +752,9 @@ address {
   fill: #f4f4fd;
   border: none;
 }
-.contact-btn-wrapper {
+/*.contact-btn-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: center;*/
 }
 .modal-form-massage:focus {
   border-color: #4d5ae5;
