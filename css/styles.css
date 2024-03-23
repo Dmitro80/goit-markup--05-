@@ -752,7 +752,7 @@ address {
   fill: #f4f4fd;
   border: none;
 }
-.contact-form-btn-wrapper {
+.contact-btn-wrapper {
   display: flex;
   justify-content: center;
 }
